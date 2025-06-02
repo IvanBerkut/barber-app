@@ -44,6 +44,18 @@
       },
       "hoursTitle": "WORKING HOURS",
       "book": "Book Online"
+    },
+    "prices": {
+      "title": "Our Prices",
+      "service1": "Men's Haircut",
+      "service2": "Haircut with Beard Design",
+      "service3": "Beard with Design",
+      "service4": "Kids Haircut (up to 5 years)",
+      "service5": "Eyebrow Plucking",
+      "service6": "Facial Mask",
+      "service7": "Hot Wax from",
+      "service8": "Hair Washing",
+      "service9": "Men's Hair Coloring"
     }
   }
 }

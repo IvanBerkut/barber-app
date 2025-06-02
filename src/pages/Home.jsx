@@ -1,6 +1,7 @@
 import Welcome from '../components/Welcome';
 import Services from '../components/Services';
 import WhyChooseUs from '../components/WhyChooseUs';
+import PriceList from '../components/PriceList';
 
 function Home() {
   return (
@@ -8,6 +9,7 @@ function Home() {
       <Welcome />
       <Services />
       <WhyChooseUs />
+      <PriceList />
     </>
   );
 }

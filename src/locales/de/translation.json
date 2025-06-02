@@ -44,6 +44,18 @@
       },
       "hoursTitle": "ÖFFNUNGSZEITEN",
       "book": "Online buchen"
+    },
+    "prices": {
+      "title": "Unsere Preise",
+      "service1": "Herrenhaarschnitt",
+      "service2": "Haarschnitt mit Bartmuster",
+      "service3": "Bart mit Muster",
+      "service4": "Kinderhaarschnitt(bis 5 Jahre)",
+      "service5": "Augenbrauen Zupfen",
+      "service6": "Gesichtmaske",
+      "service7": "Heißwachs ab",
+      "service8": "Haare Waschen",
+      "service9": "Herren Haare Färben"
     }
   }
 }

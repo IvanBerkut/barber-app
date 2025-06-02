@@ -44,6 +44,18 @@
       },
       "hoursTitle": "ÇALIŞMA SAATLERİ",
       "book": "Online Randevu Al"
+    },
+    "prices": {
+      "title": "Fiyatlarımız",
+      "service1": "Erkek Saç Kesimi",
+      "service2": "Saç Kesimi ve Sakal Şekillendirme",
+      "service3": "Desenli Sakal",
+      "service4": "Çocuk Saç Kesimi (5 yaşa kadar)",
+      "service5": "Kaş Alma",
+      "service6": "Yüz Maskesi",
+      "service7": "Sıcak Ağda",
+      "service8": "Saç Yıkama",
+      "service9": "Erkek Saç Boyama"
     }
-    }
+  }
 }
