@@ -1,5 +1,8 @@
 {
   "home": "Startseite",
   "about": "Über uns",
-  "contact": "Kontakt"
+  "contact": "Kontakt",
+  "footer": {
+    "text": "Alle Rechte vorbehalten."
+  }
 }

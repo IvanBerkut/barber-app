@@ -1,5 +1,8 @@
 {
     "home": "Ana Sayfa",
     "about": "Hakkında Sayfası",
-    "contact": "İletişim"
+    "contact": "İletişim",
+    "footer": {
+        "text": "Tüm hakları saklıdır."
+    }
 }
