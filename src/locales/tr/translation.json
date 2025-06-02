@@ -1,8 +1,17 @@
 {
-    "home": "Ana Sayfa",
-    "about": "Hakkında Sayfası",
-    "contact": "İletişim",
+    "navigation": {
+        "home": "Ana Sayfa",
+        "about": "Hakkında Sayfası",
+        "contact": "İletişim"
+    },
     "footer": {
         "text": "Tüm hakları saklıdır."
+    },
+    "home": {
+        "welcome": {
+            "welcome": "Salonumuza Hoş Geldiniz",
+            "book": "Online Randevu Al",
+            "title": "Baba Friseur Muhammed"
+        }
     }
 }

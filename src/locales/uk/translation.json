@@ -1,8 +1,17 @@
 {
-  "home": "Головна",
-  "about": "Про нас",
-  "contact": "Контакти",
+  "navigation": {
+    "home": "Головна",
+    "about": "Про нас",
+    "contact": "Контакти"
+  },
   "footer": {
     "text": "Всі права захищені"
+  },
+  "home": {
+    "welcome": {
+      "welcome": "Ласкаво просимо до нашого салону",
+      "book": "Забронювати онлайн",
+      "title": "Baba Friseur Muhammed"
+    }
   }
 }

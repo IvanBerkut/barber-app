@@ -1,8 +1,17 @@
 {
-  "home": "Startseite",
-  "about": "Über uns",
-  "contact": "Kontakt",
+  "navigation": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "contact": "Kontakt"
+  },
   "footer": {
     "text": "Alle Rechte vorbehalten."
+  },
+  "home": {
+    "welcome": {
+      "welcome": "Willkommen in unserem Salon",
+      "book": "Online buchen",
+      "title": "Baba Friseur Muhammed"
+    }
   }
 }

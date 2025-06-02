@@ -32,7 +32,7 @@ function LanguageSwitcher() {
   return (
     <div ref={dropdownRef} className="relative inline-block text-left mb-4">
       <button
-        className="flex items-center gap-2 px-4 py-2 bg-white text-gray-800 rounded-lg shadow border border-gray-300 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-400 transition-all"
+        className="flex items-center gap-2 px-4 py-2 bg-white text-gray-800 rounded-lg border border-gray-300 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-400 transition-all"
         onClick={() => setOpen(o => !o)}
         type="button"
         aria-haspopup="listbox"
@@ -42,7 +42,7 @@ function LanguageSwitcher() {
         <svg className={`w-4 h-4 ml-2 transition-transform ${open ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" /></svg>
       </button>
       {open && (
-        <div className="absolute z-20 mt-2 w-44 bg-white rounded-lg shadow-lg border border-gray-200 animate-fade-in overflow-hidden right-auto left-0 translate-x-0 md:left-auto md:right-0 md:translate-x-0">
+        <div className="absolute z-20 mt-2 w-44 bg-white rounded-lg border border-gray-200 animate-fade-in overflow-hidden right-auto left-0 translate-x-0 md:left-auto md:right-0 md:translate-x-0">
           {languages.map(lang => (
             <button
               key={lang.code}
@@ -76,7 +76,7 @@ function Header() {
   }, [menuOpen]);
 
   return (
-    <header className="bg-white-900 text-gray py-4 px-6 flex flex-col md:flex-row md:items-center md:justify-between shadow">
+    <header className="bg-white-900 text-gray py-4 px-6 flex flex-col md:flex-row md:items-center md:justify-between">
       <div className="flex items-center justify-between gap-4 mb-2 md:mb-0">
         {location.pathname === '/' ? (
           <img src="/src/assets/logo-text.svg" alt="Logo" className="h-10 w-auto" />
@@ -121,19 +121,19 @@ function Header() {
 
     {/* Centered nav links */}
     <nav className="flex flex-col gap-8 text-2xl items-center justify-center h-full">
-      <Link to="/" className="hover:text-blue-400 transition-colors" onClick={() => setMenuOpen(false)}>{t('home')}</Link>
-      <Link to="/about" className="hover:text-blue-400 transition-colors" onClick={() => setMenuOpen(false)}>{t('about')}</Link>
-      <Link to="/contact" className="hover:text-blue-400 transition-colors" onClick={() => setMenuOpen(false)}>{t('contact')}</Link>
+      <Link to="/" className="hover:text-blue-400 transition-colors" onClick={() => setMenuOpen(false)}>{t('navigation.home')}</Link>
+      <Link to="/about" className="hover:text-blue-400 transition-colors" onClick={() => setMenuOpen(false)}>{t('navigation.about')}</Link>
+      <Link to="/contact" className="hover:text-blue-400 transition-colors" onClick={() => setMenuOpen(false)}>{t('navigation.contact')}</Link>
     </nav>
   </div>
 )}
       {/* Desktop navigation and language switcher */}
       <nav
-        className={`gap-6 text-lg hidden md:flex md:items-center md:static md:bg-transparent md:shadow-none md:z-auto md:px-0 md:py-0`}
+        className={`gap-6 text-lg hidden md:flex md:items-center md:static md:bg-transparent md:z-auto md:px-0 md:py-0`}
       >
-        <Link to="/" className="hover:text-blue-400 transition-colors">{t('home')}</Link>
-        <Link to="/about" className="hover:text-blue-400 transition-colors">{t('about')}</Link>
-        <Link to="/contact" className="hover:text-blue-400 transition-colors">{t('contact')}</Link>
+        <Link to="/" className="hover:text-blue-400 transition-colors">{t('navigation.home')}</Link>
+        <Link to="/about" className="hover:text-blue-400 transition-colors">{t('navigation.about')}</Link>
+        <Link to="/contact" className="hover:text-blue-400 transition-colors">{t('navigation.contact')}</Link>
       </nav>
       <div className="hidden md:block"><LanguageSwitcher /></div>
     </header>

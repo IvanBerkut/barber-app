@@ -7,17 +7,19 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Header />
-      <main>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </main>
-      <Footer />
-    </BrowserRouter>
+    <div className="container mx-auto px-4">
+      <BrowserRouter>
+        <Header />
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </main>
+        <Footer />
+      </BrowserRouter>
+    </div>
   );
 }
 

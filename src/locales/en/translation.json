@@ -1,8 +1,17 @@
 {
-  "home": "Home",
-  "about": "About",
-  "contact": "Contact",
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact"
+  },
   "footer": {
-    "text": "© 2024 Barbershop. All rights reserved."
+    "text": "All rights reserved."
+  },
+  "home": {
+    "welcome": {
+      "welcome": "Welcome to Our Salon",
+      "book": "Book Online",
+      "title": "Baba Friseur Muhammed"
+    }
   }
 }
