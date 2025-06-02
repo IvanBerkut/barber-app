@@ -42,7 +42,7 @@ function LanguageSwitcher() {
         <svg className={`w-4 h-4 ml-2 transition-transform ${open ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" /></svg>
       </button>
       {open && (
-        <div className="absolute z-20 mt-2 w-44 bg-white rounded-lg shadow-lg border border-gray-200 animate-fade-in overflow-hidden left-1/2 -translate-x-1/2 md:left-auto md:right-0 md:translate-x-0">
+        <div className="absolute z-20 mt-2 w-44 bg-white rounded-lg shadow-lg border border-gray-200 animate-fade-in overflow-hidden right-auto left-0 translate-x-0 md:left-auto md:right-0 md:translate-x-0">
           {languages.map(lang => (
             <button
               key={lang.code}
@@ -102,24 +102,31 @@ function Header() {
       </div>
       {/* Fullscreen mobile menu overlay */}
       {menuOpen && (
-        <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-white bg-opacity-95 md:hidden transition-all">
-          <nav className="flex flex-col gap-8 text-2xl items-center">
-            <Link to="/" className="hover:text-blue-400 transition-colors" onClick={() => setMenuOpen(false)}>{t('home')}</Link>
-            <Link to="/about" className="hover:text-blue-400 transition-colors" onClick={() => setMenuOpen(false)}>{t('about')}</Link>
-            <Link to="/contact" className="hover:text-blue-400 transition-colors" onClick={() => setMenuOpen(false)}>{t('contact')}</Link>
-            <div className="mt-8"><LanguageSwitcher /></div>
-          </nav>
-          <button
-            className="absolute top-6 right-6 p-2 rounded focus:outline-none focus:ring-2 focus:ring-blue-400"
-            onClick={() => setMenuOpen(false)}
-            aria-label="Close menu"
-          >
-            <svg className="w-8 h-8" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-            </svg>
-          </button>
-        </div>
-      )}
+  <div className="fixed inset-0 z-50 bg-white bg-opacity-95 md:hidden transition-all">
+    {/* Language switcher top-left */}
+    <div className="absolute top-6 left-6">
+      <LanguageSwitcher />
+    </div>
+
+    {/* Close (X) button top-right */}
+    <button
+      className="absolute top-6 right-6 p-2 rounded focus:outline-none focus:ring-2 focus:ring-blue-400"
+      onClick={() => setMenuOpen(false)}
+      aria-label="Close menu"
+    >
+      <svg className="w-8 h-8" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </button>
+
+    {/* Centered nav links */}
+    <nav className="flex flex-col gap-8 text-2xl items-center justify-center h-full">
+      <Link to="/" className="hover:text-blue-400 transition-colors" onClick={() => setMenuOpen(false)}>{t('home')}</Link>
+      <Link to="/about" className="hover:text-blue-400 transition-colors" onClick={() => setMenuOpen(false)}>{t('about')}</Link>
+      <Link to="/contact" className="hover:text-blue-400 transition-colors" onClick={() => setMenuOpen(false)}>{t('contact')}</Link>
+    </nav>
+  </div>
+)}
       {/* Desktop navigation and language switcher */}
       <nav
         className={`gap-6 text-lg hidden md:flex md:items-center md:static md:bg-transparent md:shadow-none md:z-auto md:px-0 md:py-0`}
