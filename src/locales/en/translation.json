@@ -4,6 +4,10 @@
     "about": "About",
     "contact": "Contact"
   },
+  "common": {
+    "more": "Learn More",
+    "close": "Close"
+  },
   "footer": {
     "text": "All rights reserved."
   },
@@ -12,6 +16,34 @@
       "welcome": "Welcome to Our Salon",
       "book": "Book Online",
       "title": "Baba Friseur Muhammed"
+    },
+    "services": {
+      "haircut": "Regular Haircut",
+      "facial": "Men’s Facial",
+      "shave": "Royal Shave",
+      "kids": "Kids Haircut"
+    },
+    "why": {
+      "title": "Why choose us?",
+      "subtitle": "In addition, there are 5 more reasons why men prefer Baba Friseur Muhammed:",
+      "points": {
+        "1": "Always welcoming environment",
+        "2": "Our masters focus on the quality",
+        "3": "We value both the time and the money of our clients",
+        "4": "We work only with high-quality, hypoallergenic premium products",
+        "5": "All surfaces and tools are cleaned, disinfected before and after using"
+      },
+      "days": {
+        "mon": "Monday",
+        "tue": "Tuesday",
+        "wed": "Wednesday",
+        "thu": "Thursday",
+        "fri": "Friday",
+        "sat": "Saturday",
+        "sun": "Sunday"
+      },
+      "hoursTitle": "WORKING HOURS",
+      "book": "Book Online"
     }
   }
 }

@@ -4,6 +4,10 @@
         "about": "Hakkında Sayfası",
         "contact": "İletişim"
     },
+    "common": {
+        "more": "Daha Fazla",
+        "close": "Kapat"
+    },
     "footer": {
         "text": "Tüm hakları saklıdır."
     },
@@ -12,6 +16,34 @@
             "welcome": "Salonumuza Hoş Geldiniz",
             "book": "Online Randevu Al",
             "title": "Baba Friseur Muhammed"
-        }
+        },
+        "services": {
+            "haircut": "Saç Kesimi",
+            "facial": "Erkek Yüz Bakımı",
+            "shave": "Kraliyet Tıraşı",
+            "kids": "Çocuk Saç Kesimi"
+        },
+    "why": {
+      "title": "Neden bizi seçmelisiniz?",
+      "subtitle": "Ayrıca, erkeklerin Baba Friseur Muhammed'yi tercih etmesinin 5 nedeni daha var:",
+      "points": {
+        "1": "Her zaman sıcak bir ortam",
+        "2": "Ustalarımız kaliteye odaklanır",
+        "3": "Müşterilerimizin hem zamanına hem de parasına değer veririz",
+        "4": "Sadece yüksek kaliteli, hipoalerjenik premium ürünlerle çalışırız",
+        "5": "Tüm yüzeyler ve aletler kullanımdan önce ve sonra temizlenir, dezenfekte edilir"
+      },
+      "days": {
+        "mon": "Pazartesi",
+        "tue": "Salı",
+        "wed": "Çarşamba",
+        "thu": "Perşembe",
+        "fri": "Cuma",
+        "sat": "Cumartesi",
+        "sun": "Pazar"
+      },
+      "hoursTitle": "ÇALIŞMA SAATLERİ",
+      "book": "Online Randevu Al"
+    }
     }
 }

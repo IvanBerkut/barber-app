@@ -4,6 +4,10 @@
     "about": "Über uns",
     "contact": "Kontakt"
   },
+  "common": {
+    "more": "Mehr erfahren",
+    "close": "Schließen"
+  },
   "footer": {
     "text": "Alle Rechte vorbehalten."
   },
@@ -12,6 +16,34 @@
       "welcome": "Willkommen in unserem Salon",
       "book": "Online buchen",
       "title": "Baba Friseur Muhammed"
+    },
+    "services": {
+      "haircut": "Haarschnitt",
+      "facial": "Gesichtsbehandlung für Männer",
+      "shave": "Königliche Rasur",
+      "kids": "Kinderhaarschnitt"
+    },
+    "why": {
+      "title": "Warum uns wählen?",
+      "subtitle": "Außerdem gibt es 5 weitere Gründe, warum Männer den Baba Friseur Muhammed bevorzugen:",
+      "points": {
+      "1": "Immer eine einladende Atmosphäre",
+      "2": "Unsere Meister legen Wert auf Qualität",
+      "3": "Wir schätzen sowohl die Zeit als auch das Geld unserer Kunden",
+      "4": "Wir arbeiten nur mit hochwertigen, hypoallergenen Premium-Produkten",
+      "5": "Alle Oberflächen und Werkzeuge werden vor und nach der Benutzung gereinigt und desinfiziert"
+      },
+      "days": {
+      "mon": "Montag",
+      "tue": "Dienstag",
+      "wed": "Mittwoch",
+      "thu": "Donnerstag",
+      "fri": "Freitag",
+      "sat": "Samstag",
+      "sun": "Sonntag"
+      },
+      "hoursTitle": "ÖFFNUNGSZEITEN",
+      "book": "Online buchen"
     }
   }
 }

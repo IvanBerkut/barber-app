@@ -1,8 +1,14 @@
 import Welcome from '../components/Welcome';
+import Services from '../components/Services';
+import WhyChooseUs from '../components/WhyChooseUs';
 
 function Home() {
   return (
-    <Welcome />
+    <>
+      <Welcome />
+      <Services />
+      <WhyChooseUs />
+    </>
   );
 }
 export default Home;
