@@ -30,7 +30,7 @@ function LanguageSwitcher() {
   }, [open]);
 
   return (
-    <div ref={dropdownRef} className="relative inline-block text-left mb-4">
+    <div ref={dropdownRef} className="relative inline-block text-left">
       <button
         className="flex items-center gap-2 px-4 py-2 bg-white text-gray-800 rounded-lg border border-gray-300 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-400 transition-all"
         onClick={() => setOpen(o => !o)}
@@ -76,7 +76,7 @@ function Header() {
   }, [menuOpen]);
 
   return (
-    <header className="bg-white-900 text-gray py-4 px-6 flex flex-col md:flex-row md:items-center md:justify-between">
+    <header className="fixed top-0 left-0 w-full bg-white text-gray py-4 px-6 flex flex-col md:flex-row md:items-center md:justify-between shadow z-50">
       <div className="flex items-center justify-between gap-4 mb-2 md:mb-0">
         {location.pathname === '/' ? (
           <img src="/src/assets/logo-text.svg" alt="Logo" className="h-10 w-auto" />

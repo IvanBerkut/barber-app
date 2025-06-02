@@ -5,7 +5,7 @@ function Welcome() {
   const { t } = useTranslation();
 
   return (
-    <section className="max-w-7xl mx-auto px-4 py-16 flex flex-col md:flex-row items-center gap-10 bg-white rounded-2xl">
+    <section className="max-w-7xl mx-auto px-4 pt-24 py-16 flex flex-col md:flex-row items-center gap-10 bg-white rounded-2xl">
       
       {/* Ліва частина — текст */}
       <div className="md:w-1/2">

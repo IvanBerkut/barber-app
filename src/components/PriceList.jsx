@@ -24,7 +24,7 @@ function PriceList() {
           {services.map((item, idx) => (
             <div
               key={idx}
-              className="flex justify-between items-center bg-white px-6 py-4 rounded-lg shadow text-left"
+              className="flex justify-between gap-4 items-center bg-white px-6 py-4 rounded-lg shadow text-left"
             >
               <span className="text-lg">{t(item.nameKey)}</span>
               <span className="text-lg font-semibold">{item.price}</span>
